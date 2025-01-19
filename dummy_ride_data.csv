@@ -1,0 +1,1001 @@
+From Region,Destination Region,App,Time of Day,Cost,Surge Indicator,Fare Type
+West,West,Zig,8:45 AM,9.369561428213572,No,Surge
+South,West,Zig,6:00 PM,12.490009725806598,No,Regular
+East,West,GoJek,12:30 PM,15.386379522032337,No,Regular
+South,West,TADA,8:45 AM,7.88,No,Regular
+South,South,GoJek,8:45 AM,12.63267154106244,No,Surge
+North,South,TADA,6:00 PM,18.20814223427858,No,Regular
+East,North,TADA,6:00 PM,26.27921334989613,Yes,Regular
+East,Central,TADA,6:00 PM,13.525042784686276,No,Surge
+East,West,GoJek,12:30 PM,23.64114783325391,No,Regular
+South,North,TADA,8:45 AM,24.127480165741773,Yes,Surge
+West,Central,GoJek,6:00 PM,12.586584771112793,No,Regular
+East,East,Zig,12:30 PM,9.469910851297403,No,Regular
+South,South,Zig,12:30 PM,8.31216430361475,No,Low Demand
+North,Central,TADA,12:30 PM,8.726881124802315,No,Surge
+West,East,GoJek,6:00 PM,14.964400614536554,No,Regular
+North,Central,Zig,6:00 PM,17.986623309405587,No,Surge
+West,South,GoJek,8:45 AM,7.88,No,Surge
+South,South,GoJek,8:45 AM,9.81229073628471,No,Surge
+Central,North,TADA,6:00 PM,14.676321867244528,No,Regular
+West,West,Zig,12:30 PM,18.372148223301743,No,Low Demand
+North,Central,TADA,12:30 PM,34.255828393053335,Yes,Regular
+South,Central,TADA,12:30 PM,25.586405315601347,Yes,Regular
+West,East,Zig,8:45 AM,13.079983727432417,No,Regular
+Central,South,Zig,12:30 PM,21.73842010234566,No,Regular
+Central,Central,GoJek,8:45 AM,14.764255303880562,No,Low Demand
+East,South,Zig,8:45 AM,10.552444451483884,No,Regular
+East,Central,GoJek,12:30 PM,7.88,No,Regular
+North,North,GoJek,12:30 PM,9.449319702334295,No,Low Demand
+West,West,GoJek,6:00 PM,7.88,No,Regular
+West,Central,Zig,6:00 PM,26.102789735502075,Yes,Regular
+East,South,TADA,12:30 PM,22.062755940986854,No,Regular
+West,North,GoJek,8:45 AM,19.12412839219392,No,Regular
+West,Central,TADA,8:45 AM,14.668604345582063,No,Regular
+Central,East,TADA,8:45 AM,29.17692716855177,Yes,Surge
+East,West,Zig,8:45 AM,22.834717545924555,No,Regular
+South,Central,TADA,8:45 AM,29.753495410979717,Yes,Regular
+East,North,TADA,6:00 PM,10.462044496283003,No,Surge
+South,East,Zig,12:30 PM,9.424446446330181,No,Surge
+Central,North,GoJek,6:00 PM,29.4945635481491,No,Regular
+North,North,TADA,8:45 AM,18.224258946285598,No,Surge
+West,East,Zig,8:45 AM,9.129367716764122,No,Regular
+Central,North,TADA,8:45 AM,13.726823260220442,No,Regular
+West,East,TADA,8:45 AM,18.009722291008416,No,Surge
+North,Central,GoJek,12:30 PM,25.751761721196516,No,Regular
+North,East,TADA,8:45 AM,10.811793866065711,No,Low Demand
+Central,East,Zig,12:30 PM,25.069536749928034,No,Regular
+North,West,TADA,8:45 AM,7.88,No,Surge
+South,East,GoJek,12:30 PM,7.88,No,Regular
+North,East,GoJek,6:00 PM,23.007495267296214,No,Surge
+West,Central,Zig,8:45 AM,21.353189372299195,No,Surge
+West,West,GoJek,12:30 PM,8.69369161191046,No,Low Demand
+West,South,TADA,6:00 PM,16.446790022314822,No,Regular
+West,Central,GoJek,8:45 AM,19.897994594859348,No,Surge
+South,Central,Zig,8:45 AM,37.350787888366185,Yes,Surge
+East,South,GoJek,8:45 AM,18.149186996073688,No,Surge
+Central,East,GoJek,12:30 PM,7.88,No,Surge
+West,North,GoJek,12:30 PM,25.989651027729593,No,Surge
+North,West,Zig,6:00 PM,11.765667932132638,No,Regular
+West,North,GoJek,12:30 PM,7.88,No,Regular
+North,South,GoJek,12:30 PM,7.88,No,Regular
+North,Central,TADA,8:45 AM,32.69582504268818,Yes,Regular
+West,Central,Zig,8:45 AM,18.324316022420973,No,Low Demand
+South,West,GoJek,8:45 AM,7.88,No,Surge
+North,Central,Zig,8:45 AM,13.337947136062255,No,Low Demand
+North,Central,GoJek,8:45 AM,20.589558835191223,No,Regular
+West,West,GoJek,8:45 AM,35.354267226455846,No,Low Demand
+North,West,GoJek,8:45 AM,7.88,No,Low Demand
+North,South,TADA,6:00 PM,15.32513521199388,No,Surge
+West,Central,TADA,6:00 PM,20.682543012024844,No,Surge
+West,Central,TADA,6:00 PM,20.498673458042738,No,Regular
+Central,South,Zig,6:00 PM,20.830112205894835,No,Low Demand
+South,East,Zig,8:45 AM,41.1696759528762,Yes,Surge
+South,East,TADA,6:00 PM,20.850604196481925,No,Regular
+North,East,Zig,8:45 AM,17.714358742174245,No,Regular
+South,South,GoJek,6:00 PM,25.972442660227465,No,Low Demand
+North,Central,GoJek,12:30 PM,26.543428240727273,No,Low Demand
+Central,South,GoJek,6:00 PM,13.371489313709553,No,Low Demand
+West,South,TADA,6:00 PM,13.49349096412722,No,Surge
+West,East,Zig,8:45 AM,21.598213772545257,No,Regular
+West,North,TADA,6:00 PM,7.88,No,Regular
+South,Central,Zig,12:30 PM,29.207997971284556,No,Regular
+Central,East,GoJek,8:45 AM,19.979753823785853,No,Regular
+South,North,TADA,8:45 AM,20.89462991447245,No,Regular
+South,North,Zig,6:00 PM,28.393921236964268,No,Regular
+Central,West,Zig,8:45 AM,39.30557123346403,No,Regular
+Central,Central,GoJek,8:45 AM,15.208726803170078,No,Low Demand
+Central,North,TADA,8:45 AM,18.560122150972894,No,Regular
+Central,East,TADA,8:45 AM,25.443142784900346,Yes,Low Demand
+West,West,TADA,8:45 AM,21.10501476855936,No,Surge
+East,Central,GoJek,8:45 AM,7.88,No,Regular
+East,South,TADA,12:30 PM,17.62421048475252,No,Regular
+Central,East,GoJek,6:00 PM,13.634345837017722,No,Regular
+East,North,GoJek,12:30 PM,17.26040239141603,No,Regular
+East,North,GoJek,8:45 AM,15.169444733507742,No,Surge
+Central,East,Zig,8:45 AM,7.88,No,Regular
+East,North,TADA,6:00 PM,22.31367872439032,No,Regular
+South,West,TADA,12:30 PM,25.61539937316092,Yes,Regular
+North,Central,GoJek,6:00 PM,30.70101517927902,No,Low Demand
+North,West,GoJek,12:30 PM,14.362404420133085,No,Surge
+Central,North,TADA,8:45 AM,16.704291916228065,No,Surge
+West,South,GoJek,6:00 PM,9.890166000218734,No,Regular
+Central,Central,TADA,6:00 PM,12.717104981045086,No,Surge
+West,Central,Zig,8:45 AM,19.018169598645095,No,Surge
+North,East,GoJek,6:00 PM,14.523824647372257,No,Surge
+Central,East,TADA,12:30 PM,14.959536989730175,No,Low Demand
+South,South,GoJek,12:30 PM,7.88,No,Regular
+East,Central,TADA,12:30 PM,17.811744729041855,No,Low Demand
+West,South,TADA,12:30 PM,21.61791796644321,No,Low Demand
+East,East,GoJek,8:45 AM,8.252357998443465,No,Regular
+East,East,Zig,6:00 PM,8.455780018255838,No,Regular
+Central,Central,TADA,12:30 PM,20.084774360664067,No,Low Demand
+East,West,TADA,8:45 AM,7.88,No,Regular
+South,North,TADA,6:00 PM,25.83121237064283,Yes,Surge
+East,East,Zig,6:00 PM,20.306300401818927,No,Low Demand
+Central,East,Zig,8:45 AM,13.258994899344298,No,Surge
+South,West,GoJek,8:45 AM,7.88,No,Regular
+North,West,Zig,12:30 PM,17.62184166175025,No,Surge
+East,South,GoJek,6:00 PM,18.795065789116116,No,Regular
+Central,South,GoJek,6:00 PM,15.499372634786683,No,Surge
+North,North,Zig,8:45 AM,27.205477162631187,Yes,Regular
+North,North,GoJek,6:00 PM,15.257278094889545,No,Surge
+West,Central,Zig,12:30 PM,7.88,No,Surge
+South,South,GoJek,6:00 PM,8.440071048093749,No,Surge
+East,East,Zig,8:45 AM,31.260455947941104,No,Surge
+Central,South,Zig,8:45 AM,19.96601184063426,No,Surge
+West,East,GoJek,12:30 PM,8.388530415075653,No,Surge
+South,West,TADA,12:30 PM,16.50535300687377,No,Regular
+West,South,GoJek,6:00 PM,14.861274176707486,No,Surge
+South,West,Zig,6:00 PM,11.292766111979518,No,Regular
+South,North,TADA,8:45 AM,23.650254864090073,Yes,Low Demand
+East,North,GoJek,12:30 PM,11.205927563749896,No,Regular
+South,Central,GoJek,12:30 PM,21.760791641137207,No,Regular
+West,South,GoJek,12:30 PM,7.88,No,Surge
+South,West,TADA,6:00 PM,17.101510273209268,No,Regular
+East,East,Zig,12:30 PM,26.69171632039846,No,Regular
+East,North,GoJek,8:45 AM,10.270681388590841,No,Surge
+West,North,GoJek,8:45 AM,16.022578856316045,No,Surge
+North,East,GoJek,6:00 PM,19.6887396920309,No,Surge
+North,West,GoJek,6:00 PM,19.207483148928745,No,Regular
+South,West,GoJek,12:30 PM,14.796220797444937,No,Surge
+Central,South,Zig,6:00 PM,32.68034476412967,No,Regular
+South,South,Zig,8:45 AM,7.88,No,Surge
+West,Central,GoJek,12:30 PM,16.51562387833037,No,Surge
+West,North,TADA,8:45 AM,18.75787898560734,No,Surge
+West,South,Zig,12:30 PM,27.512272892546356,Yes,Regular
+West,West,TADA,6:00 PM,21.35265749395998,No,Regular
+West,East,Zig,12:30 PM,18.65493619869304,No,Regular
+East,West,GoJek,12:30 PM,21.70376591606329,No,Regular
+North,North,Zig,8:45 AM,23.984521308088514,No,Regular
+West,West,GoJek,8:45 AM,17.68104507725957,No,Surge
+Central,Central,Zig,12:30 PM,25.742509760620806,No,Regular
+Central,North,GoJek,6:00 PM,7.88,No,Low Demand
+Central,East,GoJek,6:00 PM,7.88,No,Regular
+Central,Central,GoJek,8:45 AM,23.646827029377867,No,Surge
+East,North,GoJek,6:00 PM,16.202483302085348,No,Surge
+Central,East,TADA,8:45 AM,10.05451781379358,No,Regular
+West,Central,GoJek,6:00 PM,15.137173825525846,No,Regular
+South,Central,TADA,12:30 PM,23.743840552196218,Yes,Surge
+Central,North,TADA,8:45 AM,9.372663289799572,No,Regular
+East,South,GoJek,8:45 AM,33.692066646129724,No,Low Demand
+East,Central,TADA,12:30 PM,7.88,No,Surge
+Central,Central,Zig,8:45 AM,7.88,No,Low Demand
+South,East,GoJek,6:00 PM,13.87294670359032,No,Regular
+Central,West,TADA,6:00 PM,12.851281423649016,No,Surge
+East,North,GoJek,8:45 AM,17.643825703614134,No,Surge
+North,North,GoJek,6:00 PM,7.88,No,Surge
+West,South,GoJek,8:45 AM,9.603405954644753,No,Regular
+East,South,TADA,12:30 PM,11.732685113722578,No,Surge
+Central,North,Zig,8:45 AM,19.221230527104954,No,Regular
+West,South,Zig,12:30 PM,14.383985801324762,No,Surge
+Central,East,TADA,6:00 PM,14.668221854911758,No,Regular
+Central,North,GoJek,12:30 PM,13.000025841056626,No,Low Demand
+North,South,TADA,6:00 PM,13.069907427132492,No,Regular
+West,North,TADA,8:45 AM,11.651308673120688,No,Low Demand
+West,West,TADA,6:00 PM,17.69292154230459,No,Low Demand
+North,Central,GoJek,8:45 AM,7.88,No,Low Demand
+East,North,TADA,8:45 AM,7.88,No,Surge
+Central,Central,GoJek,12:30 PM,18.479903278783766,No,Regular
+South,South,TADA,12:30 PM,16.806099818562597,No,Low Demand
+Central,Central,Zig,12:30 PM,27.592077128264332,No,Regular
+Central,North,TADA,12:30 PM,26.152483907582393,Yes,Surge
+East,West,TADA,6:00 PM,7.88,No,Surge
+Central,South,Zig,6:00 PM,7.88,No,Surge
+North,North,GoJek,6:00 PM,18.264397284207575,No,Regular
+North,South,GoJek,8:45 AM,11.29774040132812,No,Surge
+West,East,TADA,6:00 PM,7.88,No,Low Demand
+South,Central,Zig,6:00 PM,16.101650785645717,No,Regular
+Central,East,GoJek,6:00 PM,21.608080770172815,No,Low Demand
+Central,North,TADA,12:30 PM,7.88,No,Regular
+East,West,Zig,6:00 PM,29.051836173590743,No,Regular
+North,South,GoJek,8:45 AM,8.464517579495087,No,Regular
+South,Central,GoJek,12:30 PM,7.88,No,Regular
+West,South,Zig,8:45 AM,7.88,No,Low Demand
+North,North,Zig,6:00 PM,9.197133671938916,No,Regular
+West,South,Zig,12:30 PM,23.08099935758937,Yes,Regular
+East,Central,Zig,8:45 AM,29.99991752515227,No,Regular
+East,North,TADA,6:00 PM,7.88,No,Surge
+Central,South,Zig,8:45 AM,26.22150825404494,No,Surge
+South,West,GoJek,8:45 AM,14.474089105160797,No,Regular
+West,North,GoJek,8:45 AM,14.126356137427623,No,Regular
+North,North,TADA,6:00 PM,13.567544169210432,No,Low Demand
+East,West,GoJek,6:00 PM,7.88,No,Regular
+Central,East,GoJek,8:45 AM,16.417404486734014,No,Regular
+Central,Central,Zig,12:30 PM,7.88,No,Regular
+West,East,GoJek,12:30 PM,15.761598706611899,No,Surge
+East,South,TADA,6:00 PM,21.234394726512352,No,Regular
+South,West,Zig,6:00 PM,17.20365655155025,No,Surge
+East,East,Zig,6:00 PM,19.33825053772513,No,Regular
+West,North,TADA,6:00 PM,12.457984407127668,No,Low Demand
+West,South,Zig,6:00 PM,18.0538626963194,No,Regular
+East,South,Zig,12:30 PM,22.810555216540035,No,Surge
+West,East,TADA,6:00 PM,19.927372448127276,No,Regular
+East,East,Zig,8:45 AM,19.667748902485506,No,Regular
+North,West,TADA,8:45 AM,25.063403184689427,Yes,Surge
+East,Central,TADA,12:30 PM,18.911009004268102,No,Regular
+East,East,GoJek,8:45 AM,11.205422155073611,No,Low Demand
+West,East,GoJek,12:30 PM,7.88,No,Low Demand
+West,North,Zig,12:30 PM,31.2753462871521,No,Low Demand
+Central,South,Zig,8:45 AM,15.06364262967163,No,Regular
+Central,Central,TADA,6:00 PM,20.01625370963726,No,Surge
+North,North,Zig,8:45 AM,16.09657297865805,No,Regular
+Central,West,TADA,8:45 AM,15.507747277060123,No,Low Demand
+East,West,TADA,12:30 PM,23.706582544373568,Yes,Surge
+West,East,Zig,8:45 AM,43.50306465063806,No,Low Demand
+Central,East,TADA,12:30 PM,10.626639393988615,No,Regular
+Central,West,GoJek,6:00 PM,9.921777879560441,No,Surge
+North,East,Zig,6:00 PM,7.88,No,Regular
+North,Central,GoJek,6:00 PM,26.861362879234235,No,Surge
+East,East,Zig,8:45 AM,7.88,No,Regular
+West,South,TADA,12:30 PM,7.88,No,Surge
+North,East,Zig,6:00 PM,25.437983419596176,Yes,Surge
+Central,North,GoJek,12:30 PM,25.00777223039031,Yes,Surge
+West,Central,TADA,12:30 PM,24.091251390904866,Yes,Regular
+West,North,Zig,6:00 PM,26.694375028072244,Yes,Surge
+Central,North,Zig,6:00 PM,27.140028837237907,Yes,Regular
+North,South,Zig,12:30 PM,7.88,No,Regular
+Central,Central,GoJek,6:00 PM,25.254129003119893,No,Regular
+West,Central,GoJek,12:30 PM,10.4707701543669,No,Regular
+South,Central,Zig,12:30 PM,14.992972597664833,No,Regular
+South,Central,TADA,6:00 PM,16.04994921632527,No,Surge
+East,Central,TADA,8:45 AM,19.662845183171395,No,Regular
+Central,South,GoJek,6:00 PM,16.660320989208596,No,Regular
+Central,East,TADA,8:45 AM,7.88,No,Low Demand
+East,North,GoJek,12:30 PM,15.917498223016516,No,Regular
+East,Central,Zig,12:30 PM,7.88,No,Surge
+East,East,GoJek,8:45 AM,20.20936725251585,No,Surge
+West,East,GoJek,12:30 PM,25.001397462790266,No,Low Demand
+Central,North,Zig,8:45 AM,12.108398355446061,No,Surge
+West,South,TADA,8:45 AM,23.204695729842015,Yes,Surge
+East,West,GoJek,12:30 PM,19.558598707323014,No,Low Demand
+Central,West,GoJek,8:45 AM,17.096933560175337,No,Regular
+West,East,Zig,6:00 PM,18.64288937519265,No,Low Demand
+West,North,TADA,6:00 PM,26.08964049067364,Yes,Regular
+East,West,GoJek,12:30 PM,22.08130377736313,No,Low Demand
+Central,East,Zig,12:30 PM,12.667075599718968,No,Regular
+East,South,GoJek,8:45 AM,22.718243740023766,No,Surge
+Central,West,Zig,8:45 AM,11.237859080007937,No,Regular
+South,East,TADA,8:45 AM,15.89573362556743,No,Surge
+North,East,TADA,8:45 AM,11.371249715695642,No,Regular
+North,Central,TADA,6:00 PM,31.556560380821324,Yes,Low Demand
+North,South,TADA,6:00 PM,23.557950676929874,Yes,Low Demand
+East,Central,GoJek,12:30 PM,28.31101138548405,No,Regular
+South,North,GoJek,8:45 AM,17.51749888361555,No,Low Demand
+Central,Central,TADA,8:45 AM,11.37498047907616,No,Surge
+West,Central,TADA,12:30 PM,19.50578593811189,No,Surge
+Central,West,TADA,8:45 AM,28.12286953213488,Yes,Regular
+West,East,GoJek,8:45 AM,8.012734870962246,No,Regular
+Central,South,TADA,8:45 AM,14.185051857058536,No,Regular
+South,Central,TADA,8:45 AM,7.88,No,Regular
+West,South,TADA,8:45 AM,7.895315017804482,No,Low Demand
+East,Central,Zig,12:30 PM,26.676011644757647,Yes,Regular
+Central,North,TADA,8:45 AM,23.72443029254199,Yes,Low Demand
+Central,Central,Zig,12:30 PM,16.588668171824082,No,Regular
+West,West,Zig,8:45 AM,23.001465011760278,No,Surge
+East,East,TADA,6:00 PM,10.865645988087959,No,Surge
+East,North,Zig,6:00 PM,9.000273464736138,No,Low Demand
+South,Central,TADA,6:00 PM,14.190817973771466,No,Regular
+East,South,GoJek,6:00 PM,7.88,No,Regular
+East,North,GoJek,12:30 PM,7.996922458581864,No,Regular
+East,North,GoJek,12:30 PM,25.875726656525572,No,Regular
+North,Central,GoJek,8:45 AM,16.691641259532958,No,Regular
+South,North,Zig,6:00 PM,7.88,No,Regular
+Central,South,TADA,12:30 PM,20.126203218264212,No,Regular
+West,North,TADA,8:45 AM,13.592733831729666,No,Surge
+Central,South,TADA,8:45 AM,16.85345475861008,No,Regular
+South,Central,GoJek,12:30 PM,13.301017492833086,No,Regular
+West,East,GoJek,6:00 PM,9.824270088152122,No,Regular
+South,North,TADA,8:45 AM,7.88,No,Surge
+East,East,GoJek,6:00 PM,13.731755757656734,No,Low Demand
+West,South,TADA,6:00 PM,14.07771725996421,No,Surge
+East,North,TADA,6:00 PM,10.442403067512863,No,Surge
+Central,West,TADA,8:45 AM,16.46744088915482,No,Regular
+Central,East,TADA,6:00 PM,8.76903360584027,No,Surge
+West,North,TADA,8:45 AM,13.0772507795671,No,Regular
+West,East,TADA,6:00 PM,21.36342966441503,No,Regular
+South,North,TADA,8:45 AM,7.88,No,Surge
+South,Central,GoJek,6:00 PM,15.867423884446655,No,Low Demand
+East,East,TADA,12:30 PM,7.88,No,Regular
+West,West,TADA,6:00 PM,7.88,No,Surge
+Central,West,GoJek,6:00 PM,22.65872166686924,No,Surge
+South,South,GoJek,8:45 AM,19.695102809991944,No,Regular
+South,North,GoJek,8:45 AM,25.834032898788767,No,Regular
+Central,East,TADA,6:00 PM,8.348577451187731,No,Regular
+South,South,Zig,12:30 PM,13.758841893564446,No,Regular
+East,East,Zig,12:30 PM,13.582522895653138,No,Regular
+West,North,GoJek,8:45 AM,26.24807307348899,No,Regular
+Central,West,Zig,12:30 PM,11.893550296157015,No,Regular
+West,Central,GoJek,6:00 PM,17.33637688803426,No,Surge
+South,West,TADA,8:45 AM,22.634767533663705,No,Surge
+South,South,Zig,6:00 PM,25.110593009461677,No,Low Demand
+Central,Central,TADA,8:45 AM,13.647374350750205,No,Regular
+East,South,Zig,8:45 AM,18.604096919349804,No,Surge
+North,North,TADA,8:45 AM,7.88,No,Low Demand
+Central,Central,Zig,8:45 AM,31.826119798062912,No,Surge
+North,South,TADA,12:30 PM,7.88,No,Regular
+North,North,TADA,6:00 PM,7.88,No,Surge
+East,West,Zig,6:00 PM,10.27712358376958,No,Regular
+North,North,TADA,6:00 PM,7.88,No,Regular
+North,East,TADA,8:45 AM,23.19891516125424,Yes,Surge
+East,North,TADA,12:30 PM,25.276519697983396,Yes,Surge
+North,North,Zig,6:00 PM,19.857762806688143,No,Regular
+North,East,Zig,12:30 PM,19.52670391696694,No,Low Demand
+North,South,TADA,8:45 AM,9.197674407103088,No,Surge
+Central,South,TADA,6:00 PM,20.77977141046017,No,Regular
+Central,North,Zig,12:30 PM,21.418963614484245,No,Low Demand
+Central,East,Zig,8:45 AM,9.755285410541067,No,Regular
+East,East,TADA,12:30 PM,12.583279130732643,No,Low Demand
+South,West,TADA,6:00 PM,7.88,No,Surge
+North,South,TADA,6:00 PM,20.968475969924317,No,Regular
+North,Central,GoJek,8:45 AM,14.29265760749307,No,Surge
+East,South,Zig,8:45 AM,36.71451366352801,No,Surge
+North,South,GoJek,8:45 AM,17.284562318550837,No,Surge
+Central,West,Zig,12:30 PM,7.88,No,Low Demand
+South,Central,Zig,12:30 PM,7.88,No,Surge
+West,West,Zig,12:30 PM,14.1353409552161,No,Surge
+North,Central,Zig,8:45 AM,9.922032800136726,No,Low Demand
+Central,North,Zig,6:00 PM,17.535074681563607,No,Surge
+West,Central,Zig,6:00 PM,22.68611802382663,No,Regular
+South,West,Zig,12:30 PM,9.08651701957851,No,Low Demand
+West,South,GoJek,12:30 PM,13.256803065771392,No,Regular
+Central,Central,TADA,6:00 PM,7.88,No,Surge
+West,Central,TADA,6:00 PM,28.38191913772447,Yes,Low Demand
+East,East,GoJek,12:30 PM,16.29538087667328,No,Surge
+West,South,GoJek,12:30 PM,14.444585971954586,No,Surge
+North,North,GoJek,6:00 PM,20.027469624763096,No,Surge
+North,West,GoJek,8:45 AM,20.417439297483597,No,Regular
+East,North,Zig,12:30 PM,21.92493717306122,No,Low Demand
+Central,South,TADA,6:00 PM,8.602183861625635,No,Regular
+North,Central,Zig,6:00 PM,15.769028972705037,No,Regular
+South,Central,TADA,6:00 PM,19.15687890617096,No,Regular
+North,South,TADA,6:00 PM,16.99525841589866,No,Surge
+North,Central,GoJek,8:45 AM,10.231349864579247,No,Surge
+Central,Central,Zig,6:00 PM,25.39327799398039,No,Low Demand
+West,Central,GoJek,12:30 PM,16.873900474395054,No,Regular
+North,West,Zig,8:45 AM,22.2375931398002,No,Regular
+East,West,TADA,6:00 PM,13.756813688474441,No,Regular
+West,East,GoJek,8:45 AM,12.827334669210872,No,Regular
+South,North,GoJek,12:30 PM,23.169923486284112,No,Surge
+Central,South,TADA,6:00 PM,9.81883891872171,No,Regular
+South,South,TADA,12:30 PM,9.541735206628818,No,Regular
+West,South,TADA,6:00 PM,12.586974700702141,No,Regular
+West,East,GoJek,6:00 PM,14.837277011442993,No,Regular
+West,West,Zig,6:00 PM,18.092002452275473,No,Regular
+South,East,GoJek,6:00 PM,15.186153678043693,No,Regular
+West,South,Zig,6:00 PM,14.616453889857354,No,Surge
+South,North,GoJek,8:45 AM,21.66542170009731,No,Low Demand
+West,Central,GoJek,6:00 PM,16.479184785329682,No,Surge
+East,West,TADA,6:00 PM,16.89732574719187,No,Low Demand
+West,West,Zig,8:45 AM,29.85263439496008,No,Regular
+South,East,GoJek,8:45 AM,27.92642967431501,No,Surge
+North,West,GoJek,8:45 AM,15.726479697070666,No,Low Demand
+West,South,TADA,8:45 AM,15.275983100463092,No,Regular
+North,South,TADA,8:45 AM,19.740626825857156,No,Low Demand
+East,East,Zig,8:45 AM,27.215139728104205,No,Regular
+Central,South,GoJek,6:00 PM,27.726440106977666,No,Regular
+East,North,Zig,6:00 PM,7.88,No,Regular
+West,East,GoJek,12:30 PM,10.181113111886464,No,Surge
+North,North,Zig,6:00 PM,7.88,No,Surge
+North,Central,TADA,6:00 PM,12.277623501644038,No,Surge
+South,North,GoJek,8:45 AM,9.977272888863624,No,Regular
+North,Central,Zig,8:45 AM,7.88,No,Regular
+South,Central,TADA,6:00 PM,22.494780662132396,No,Regular
+Central,North,TADA,12:30 PM,14.034501651927176,No,Regular
+West,East,Zig,8:45 AM,12.872513435993909,No,Low Demand
+South,South,GoJek,6:00 PM,22.19315231566057,No,Regular
+Central,South,GoJek,6:00 PM,8.03138258992766,No,Low Demand
+North,Central,TADA,12:30 PM,14.919713043304947,No,Low Demand
+North,Central,GoJek,12:30 PM,17.24296068499711,No,Regular
+Central,East,GoJek,8:45 AM,17.699629294191602,No,Surge
+North,West,GoJek,12:30 PM,7.88,No,Regular
+Central,North,TADA,6:00 PM,11.676957498089383,No,Regular
+South,Central,Zig,6:00 PM,17.84768756999288,No,Regular
+South,South,GoJek,12:30 PM,10.923445635976435,No,Surge
+Central,East,TADA,12:30 PM,14.60739641892466,No,Regular
+South,North,TADA,12:30 PM,7.88,No,Surge
+South,East,Zig,12:30 PM,7.88,No,Surge
+South,North,GoJek,8:45 AM,7.88,No,Regular
+East,North,GoJek,12:30 PM,33.03502796467363,No,Surge
+West,Central,Zig,8:45 AM,10.481368054340017,No,Surge
+North,East,Zig,6:00 PM,21.929247226889196,No,Regular
+East,East,TADA,12:30 PM,17.153869938310205,No,Regular
+South,South,TADA,8:45 AM,19.763250622466867,No,Surge
+Central,South,Zig,12:30 PM,10.507809688786107,No,Regular
+South,Central,GoJek,6:00 PM,24.86196352525647,No,Surge
+West,Central,TADA,6:00 PM,9.479506479690055,No,Regular
+South,West,TADA,6:00 PM,35.937745810586776,Yes,Regular
+Central,South,GoJek,12:30 PM,21.692243989846236,No,Regular
+West,North,TADA,12:30 PM,37.7509038840856,Yes,Regular
+South,East,GoJek,8:45 AM,20.55650905078021,No,Surge
+West,Central,GoJek,6:00 PM,21.74873599237187,No,Regular
+North,East,GoJek,12:30 PM,8.932082882799474,No,Surge
+North,East,Zig,6:00 PM,25.277025106459103,Yes,Low Demand
+South,West,Zig,6:00 PM,17.45212662567127,No,Surge
+West,South,Zig,8:45 AM,17.757902269436205,No,Surge
+Central,Central,GoJek,8:45 AM,22.28415279012709,No,Regular
+South,East,GoJek,8:45 AM,9.746312145501332,No,Regular
+North,Central,Zig,8:45 AM,25.232853168530294,Yes,Surge
+North,North,TADA,6:00 PM,9.342415795426959,No,Regular
+South,West,GoJek,8:45 AM,10.66799609257289,No,Surge
+West,North,TADA,8:45 AM,17.20811878420083,No,Regular
+North,Central,TADA,8:45 AM,22.281105810800838,No,Surge
+West,Central,GoJek,8:45 AM,24.999034179821425,No,Low Demand
+North,South,GoJek,6:00 PM,18.665884398497102,No,Low Demand
+North,East,TADA,8:45 AM,18.9050760338285,No,Surge
+East,East,TADA,6:00 PM,15.886549821405401,No,Surge
+North,North,Zig,12:30 PM,13.631903763728058,No,Surge
+Central,West,Zig,6:00 PM,12.845693098749662,No,Surge
+South,East,GoJek,6:00 PM,24.136082133443587,No,Regular
+South,South,Zig,8:45 AM,21.31715178607075,No,Regular
+West,North,Zig,12:30 PM,20.484806710777747,No,Regular
+North,North,Zig,12:30 PM,20.571357031617136,No,Low Demand
+Central,South,Zig,12:30 PM,7.88,No,Regular
+West,West,TADA,12:30 PM,7.88,No,Surge
+East,South,GoJek,6:00 PM,17.47029773235987,No,Surge
+West,West,Zig,12:30 PM,9.964249206593207,No,Surge
+West,South,TADA,6:00 PM,7.88,No,Surge
+North,South,TADA,6:00 PM,20.304991639197688,No,Regular
+East,Central,TADA,6:00 PM,21.70128313343125,No,Surge
+West,North,Zig,12:30 PM,29.484047793848045,Yes,Low Demand
+Central,South,Zig,8:45 AM,19.45066319061809,No,Regular
+Central,South,GoJek,8:45 AM,23.374123454317676,No,Regular
+South,East,Zig,12:30 PM,22.44571792605297,No,Surge
+East,North,Zig,8:45 AM,9.394729708097104,No,Low Demand
+East,East,TADA,8:45 AM,7.88,No,Regular
+South,North,GoJek,6:00 PM,15.483870059624204,No,Surge
+West,East,Zig,6:00 PM,7.88,No,Low Demand
+East,South,Zig,12:30 PM,10.927641964976576,No,Regular
+Central,South,TADA,12:30 PM,7.88,No,Low Demand
+Central,Central,TADA,8:45 AM,12.976604762812968,No,Surge
+North,East,Zig,6:00 PM,18.239858738463123,No,Surge
+East,West,GoJek,12:30 PM,16.63327964744448,No,Surge
+West,Central,GoJek,12:30 PM,18.12586635287457,No,Regular
+South,East,TADA,12:30 PM,32.008479323827984,Yes,Regular
+South,East,TADA,12:30 PM,7.88,No,Regular
+West,Central,Zig,12:30 PM,9.639102516538912,No,Regular
+North,South,TADA,12:30 PM,20.315200575519846,No,Regular
+South,East,Zig,8:45 AM,22.616224232698602,No,Low Demand
+East,South,GoJek,6:00 PM,24.23975918804344,No,Low Demand
+North,Central,GoJek,6:00 PM,14.292532053220093,No,Surge
+East,South,Zig,12:30 PM,9.549804414014037,No,Low Demand
+Central,North,TADA,6:00 PM,10.38293937127115,No,Surge
+North,West,GoJek,6:00 PM,9.716263122741966,No,Regular
+South,East,TADA,6:00 PM,22.52391365049419,No,Regular
+North,West,GoJek,12:30 PM,24.56548391699696,No,Surge
+North,South,Zig,12:30 PM,21.440522909024253,No,Surge
+North,East,Zig,6:00 PM,12.223885178150585,No,Regular
+North,South,Zig,6:00 PM,40.097867375156326,Yes,Surge
+East,North,GoJek,12:30 PM,17.48150941542395,No,Regular
+Central,Central,TADA,8:45 AM,20.391935553373198,No,Surge
+West,East,TADA,6:00 PM,25.587795089900588,Yes,Low Demand
+North,North,TADA,8:45 AM,9.580199962184835,No,Surge
+South,North,GoJek,6:00 PM,32.76723272948395,No,Low Demand
+North,East,GoJek,8:45 AM,21.88000942041178,No,Low Demand
+South,South,GoJek,8:45 AM,20.484834302129244,No,Low Demand
+East,North,GoJek,8:45 AM,18.16427288257447,No,Low Demand
+South,West,GoJek,12:30 PM,26.322665605748874,No,Low Demand
+West,North,TADA,8:45 AM,24.35044619393755,Yes,Surge
+Central,South,GoJek,8:45 AM,19.505566285885536,No,Regular
+South,South,GoJek,8:45 AM,7.88,No,Regular
+South,West,TADA,6:00 PM,18.025754495596455,No,Surge
+Central,North,GoJek,8:45 AM,16.78174446660748,No,Regular
+West,South,TADA,6:00 PM,17.247692889269484,No,Regular
+North,East,TADA,8:45 AM,16.6615075668821,No,Low Demand
+South,Central,Zig,8:45 AM,24.580836731703673,Yes,Low Demand
+Central,Central,Zig,12:30 PM,25.589836590479713,Yes,Low Demand
+East,Central,Zig,6:00 PM,27.205447616662994,Yes,Regular
+Central,North,Zig,8:45 AM,7.88,No,Regular
+East,West,GoJek,6:00 PM,12.124317012770542,No,Regular
+West,South,Zig,6:00 PM,14.705831913135588,No,Regular
+North,East,TADA,12:30 PM,7.88,No,Regular
+Central,East,GoJek,12:30 PM,24.980936709255758,No,Regular
+South,North,Zig,12:30 PM,20.415558656434523,No,Low Demand
+West,Central,TADA,12:30 PM,7.88,No,Surge
+Central,North,GoJek,12:30 PM,17.959962049124144,No,Regular
+South,West,GoJek,12:30 PM,20.66936979887661,No,Regular
+Central,West,Zig,12:30 PM,14.224765940446849,No,Surge
+East,South,GoJek,12:30 PM,11.974644300195674,No,Regular
+Central,South,TADA,8:45 AM,23.80624038441173,Yes,Low Demand
+Central,West,GoJek,6:00 PM,30.991023105070596,No,Regular
+Central,West,TADA,12:30 PM,28.03444593491006,Yes,Regular
+West,West,GoJek,12:30 PM,13.561299735592263,No,Regular
+Central,North,Zig,6:00 PM,7.88,No,Regular
+South,West,TADA,8:45 AM,18.434168305537963,No,Surge
+East,East,GoJek,6:00 PM,20.996701296118083,No,Surge
+East,Central,GoJek,6:00 PM,7.88,No,Surge
+Central,West,GoJek,12:30 PM,19.59479985512908,No,Regular
+West,Central,TADA,6:00 PM,15.6054537336266,No,Surge
+West,North,TADA,6:00 PM,14.252552987677362,No,Surge
+South,Central,TADA,12:30 PM,28.437757061716972,Yes,Low Demand
+Central,North,Zig,12:30 PM,34.395537197552315,Yes,Regular
+East,East,Zig,12:30 PM,18.145177433181058,No,Regular
+West,North,TADA,12:30 PM,7.88,No,Surge
+Central,North,GoJek,6:00 PM,31.603549655278407,No,Surge
+West,South,Zig,6:00 PM,17.040842229738384,No,Regular
+West,West,TADA,8:45 AM,12.260928539645938,No,Regular
+East,West,GoJek,8:45 AM,19.85574660972489,No,Regular
+North,East,Zig,6:00 PM,7.88,No,Low Demand
+South,East,GoJek,8:45 AM,20.01805927097923,No,Regular
+South,West,GoJek,6:00 PM,23.032120576207063,No,Low Demand
+East,South,GoJek,8:45 AM,21.39339603583139,No,Surge
+West,West,GoJek,12:30 PM,19.81242283252374,No,Low Demand
+Central,South,Zig,8:45 AM,30.289495389522813,Yes,Low Demand
+West,East,Zig,12:30 PM,14.827931522904054,No,Regular
+East,Central,Zig,12:30 PM,17.84153827345155,No,Low Demand
+South,East,TADA,12:30 PM,7.88,No,Regular
+West,East,Zig,12:30 PM,40.28676626933114,No,Low Demand
+South,North,GoJek,8:45 AM,32.778721014616885,No,Surge
+Central,North,Zig,6:00 PM,15.869354032033542,No,Regular
+South,North,GoJek,12:30 PM,13.053297597561619,No,Surge
+South,North,TADA,8:45 AM,34.98736541048234,Yes,Low Demand
+North,South,GoJek,12:30 PM,9.55988105673093,No,Regular
+North,West,GoJek,8:45 AM,14.19313211900084,No,Surge
+North,Central,GoJek,8:45 AM,25.881475192087606,No,Surge
+South,East,TADA,8:45 AM,19.089513273589702,No,Low Demand
+East,South,Zig,6:00 PM,18.6131360817527,No,Regular
+South,Central,Zig,8:45 AM,23.271207527175427,No,Regular
+East,South,TADA,8:45 AM,16.655818330683996,No,Regular
+East,South,GoJek,6:00 PM,32.67554008083217,No,Surge
+North,East,Zig,6:00 PM,7.88,No,Regular
+West,West,TADA,8:45 AM,7.88,No,Low Demand
+Central,North,Zig,6:00 PM,22.05800246854479,No,Regular
+North,West,TADA,12:30 PM,10.734921326970953,No,Surge
+North,East,GoJek,12:30 PM,16.112378703397333,No,Regular
+West,East,Zig,6:00 PM,24.86538082468278,No,Regular
+Central,East,TADA,6:00 PM,7.88,No,Regular
+South,Central,Zig,8:45 AM,11.429451665811706,No,Regular
+South,West,Zig,6:00 PM,12.335595238044766,No,Surge
+North,West,Zig,8:45 AM,51.83819957875149,Yes,Low Demand
+Central,South,Zig,12:30 PM,21.548731155185376,No,Surge
+North,South,TADA,6:00 PM,23.92841915431216,Yes,Low Demand
+East,South,GoJek,8:45 AM,18.121216553514028,No,Low Demand
+North,East,TADA,8:45 AM,7.88,No,Surge
+North,West,TADA,12:30 PM,19.114537756671616,No,Low Demand
+South,East,TADA,6:00 PM,12.669535550998859,No,Surge
+South,Central,GoJek,12:30 PM,14.367318116982181,No,Regular
+South,South,Zig,8:45 AM,12.010462342996174,No,Surge
+East,East,Zig,8:45 AM,23.175778937459015,No,Regular
+South,East,Zig,6:00 PM,24.98848432218549,Yes,Surge
+Central,Central,GoJek,8:45 AM,12.807015132003821,No,Surge
+West,North,Zig,6:00 PM,11.539958903140885,No,Regular
+Central,West,GoJek,12:30 PM,20.21026018569794,No,Regular
+Central,North,Zig,6:00 PM,25.904499387350434,No,Low Demand
+South,South,Zig,6:00 PM,8.23783462379543,No,Surge
+West,East,TADA,8:45 AM,8.717836581607024,No,Regular
+West,Central,GoJek,8:45 AM,26.568164682879882,Yes,Surge
+West,Central,TADA,6:00 PM,16.611221257999777,No,Surge
+East,West,TADA,8:45 AM,20.05515910375839,No,Surge
+South,North,TADA,8:45 AM,19.773745620127535,No,Low Demand
+West,West,GoJek,8:45 AM,10.735187988561005,No,Surge
+East,East,GoJek,6:00 PM,15.992238948321322,No,Regular
+North,West,Zig,8:45 AM,23.42754396939379,Yes,Low Demand
+North,Central,TADA,6:00 PM,17.91186127997615,No,Low Demand
+East,Central,Zig,8:45 AM,10.556582849567144,No,Regular
+East,South,TADA,12:30 PM,20.080842074865153,No,Regular
+South,South,GoJek,8:45 AM,12.673408123303714,No,Regular
+South,East,GoJek,8:45 AM,16.116313757755275,No,Surge
+North,North,GoJek,6:00 PM,10.78544636586338,No,Surge
+West,West,TADA,6:00 PM,12.395196619683823,No,Surge
+North,East,GoJek,8:45 AM,11.553520109408495,No,Low Demand
+West,South,TADA,12:30 PM,21.461843879998785,No,Surge
+West,West,Zig,8:45 AM,19.524771659739166,No,Regular
+South,South,TADA,8:45 AM,7.88,No,Regular
+Central,West,Zig,12:30 PM,25.14823074074004,Yes,Regular
+Central,North,TADA,6:00 PM,20.340406689457012,No,Regular
+East,East,Zig,8:45 AM,7.88,No,Surge
+South,West,GoJek,6:00 PM,9.899112115649388,No,Low Demand
+West,Central,Zig,6:00 PM,14.438977043498586,No,Regular
+Central,Central,GoJek,12:30 PM,22.605055061149116,No,Surge
+West,West,GoJek,12:30 PM,17.301309160383298,No,Surge
+Central,West,Zig,6:00 PM,13.590129341555354,No,Regular
+Central,West,TADA,8:45 AM,7.88,No,Regular
+Central,Central,TADA,6:00 PM,25.251346989328137,Yes,Regular
+South,Central,TADA,8:45 AM,11.237572352312899,No,Regular
+North,West,TADA,8:45 AM,9.207469714199721,No,Low Demand
+West,South,TADA,12:30 PM,7.88,No,Regular
+South,South,GoJek,8:45 AM,7.88,No,Regular
+South,North,TADA,8:45 AM,13.44879725429782,No,Surge
+South,East,GoJek,6:00 PM,28.99790379971909,No,Low Demand
+South,South,GoJek,12:30 PM,13.67421888492647,No,Regular
+South,Central,GoJek,8:45 AM,12.210661867171247,No,Regular
+East,South,Zig,8:45 AM,17.980244864180875,No,Regular
+West,North,Zig,12:30 PM,21.69839061525289,No,Regular
+South,North,GoJek,6:00 PM,7.88,No,Regular
+West,East,Zig,12:30 PM,7.88,No,Surge
+East,South,TADA,12:30 PM,13.871230465852644,No,Regular
+East,Central,TADA,8:45 AM,9.130592212014001,No,Regular
+West,Central,GoJek,8:45 AM,24.09674211664775,No,Low Demand
+Central,West,TADA,6:00 PM,18.086004034674428,No,Regular
+North,Central,GoJek,8:45 AM,7.88,No,Regular
+Central,East,GoJek,8:45 AM,26.591708525287366,No,Regular
+Central,East,TADA,12:30 PM,11.735754975173625,No,Low Demand
+Central,Central,Zig,8:45 AM,7.88,No,Regular
+South,Central,TADA,6:00 PM,17.02858274456904,No,Low Demand
+East,West,TADA,12:30 PM,23.745349140344576,Yes,Surge
+Central,Central,GoJek,6:00 PM,7.88,No,Regular
+East,West,GoJek,12:30 PM,17.32265894002841,No,Low Demand
+West,West,GoJek,8:45 AM,7.88,No,Regular
+North,Central,GoJek,12:30 PM,24.15067827123402,No,Regular
+West,North,Zig,12:30 PM,9.49217243100057,No,Low Demand
+West,North,Zig,8:45 AM,16.398003811999033,No,Surge
+South,West,Zig,8:45 AM,8.449014392851813,No,Surge
+North,Central,GoJek,6:00 PM,10.738994938205723,No,Regular
+West,North,GoJek,6:00 PM,19.05794617963894,No,Regular
+West,Central,GoJek,8:45 AM,17.975645624900753,No,Surge
+North,Central,Zig,8:45 AM,22.117572280573555,No,Regular
+North,Central,GoJek,8:45 AM,22.389158273367265,No,Regular
+West,South,TADA,12:30 PM,12.415751041712848,No,Regular
+North,Central,TADA,12:30 PM,22.849967175640252,No,Regular
+West,South,GoJek,12:30 PM,12.568182112508623,No,Low Demand
+West,West,TADA,8:45 AM,18.759923155880372,No,Regular
+South,North,TADA,6:00 PM,20.308294469885382,No,Low Demand
+Central,North,Zig,8:45 AM,10.307611406344497,No,Regular
+West,North,GoJek,12:30 PM,23.11342652055042,No,Surge
+East,North,GoJek,12:30 PM,12.534496186034348,No,Regular
+Central,North,Zig,8:45 AM,7.88,No,Regular
+Central,North,TADA,8:45 AM,9.616373987614617,No,Regular
+Central,North,TADA,12:30 PM,12.660286600870492,No,Regular
+South,West,GoJek,12:30 PM,8.014347896112456,No,Surge
+West,Central,TADA,12:30 PM,18.015760669722393,No,Low Demand
+South,East,Zig,8:45 AM,19.498075772401467,No,Surge
+West,South,Zig,12:30 PM,7.88,No,Regular
+South,East,GoJek,12:30 PM,13.644800879311745,No,Regular
+South,East,Zig,6:00 PM,21.885619104247905,No,Regular
+East,Central,Zig,8:45 AM,22.242073786457304,No,Surge
+South,Central,GoJek,6:00 PM,7.88,No,Surge
+North,Central,Zig,6:00 PM,9.958671771448731,No,Low Demand
+East,North,Zig,12:30 PM,33.88785731812231,No,Regular
+South,West,Zig,8:45 AM,7.88,No,Surge
+Central,North,TADA,12:30 PM,10.777779165824338,No,Regular
+North,West,GoJek,8:45 AM,7.88,No,Surge
+North,West,GoJek,6:00 PM,14.95884003055334,No,Surge
+North,East,GoJek,8:45 AM,9.175825429883481,No,Surge
+East,East,TADA,12:30 PM,20.74461277254651,No,Surge
+South,West,TADA,12:30 PM,17.14785793381956,No,Regular
+South,West,GoJek,12:30 PM,10.190839241040518,No,Surge
+Central,North,TADA,8:45 AM,7.88,No,Regular
+Central,North,GoJek,6:00 PM,10.37091600592693,No,Surge
+North,East,TADA,6:00 PM,10.65191564199514,No,Regular
+Central,Central,Zig,8:45 AM,8.980125739957021,No,Surge
+East,West,Zig,12:30 PM,7.88,No,Low Demand
+South,North,GoJek,6:00 PM,23.964830729674183,No,Low Demand
+North,East,TADA,12:30 PM,18.6264707336714,No,Low Demand
+Central,North,TADA,8:45 AM,31.427119112719456,Yes,Surge
+East,West,Zig,12:30 PM,23.47368599161829,Yes,Surge
+East,West,Zig,6:00 PM,15.488584753933061,No,Surge
+Central,South,TADA,6:00 PM,35.34581880291487,Yes,Low Demand
+South,Central,TADA,12:30 PM,9.39884371142978,No,Regular
+Central,South,TADA,8:45 AM,7.93570339566204,No,Low Demand
+North,East,TADA,12:30 PM,8.822714509576329,No,Low Demand
+Central,North,TADA,8:45 AM,7.88,No,Surge
+East,East,TADA,12:30 PM,9.522167146889844,No,Regular
+Central,West,GoJek,6:00 PM,18.886272171909884,No,Regular
+South,South,TADA,8:45 AM,17.313312463722237,No,Low Demand
+West,South,Zig,8:45 AM,27.930252243163814,No,Regular
+Central,South,GoJek,8:45 AM,21.224425222110753,No,Low Demand
+South,East,TADA,6:00 PM,7.88,No,Regular
+South,West,Zig,12:30 PM,18.577768503383894,No,Regular
+East,North,GoJek,6:00 PM,27.563330435142806,No,Low Demand
+South,North,Zig,8:45 AM,28.87728184111184,Yes,Surge
+South,East,TADA,12:30 PM,15.961510554684574,No,Surge
+South,South,TADA,6:00 PM,19.866820670523154,No,Surge
+South,Central,TADA,8:45 AM,7.88,No,Regular
+North,East,TADA,8:45 AM,12.146495438236997,No,Surge
+North,East,GoJek,6:00 PM,29.858887802820465,No,Regular
+East,West,GoJek,6:00 PM,14.450789870278548,No,Low Demand
+Central,North,Zig,6:00 PM,7.88,No,Low Demand
+South,East,TADA,8:45 AM,8.297377647615834,No,Regular
+Central,East,Zig,6:00 PM,16.580241433338653,No,Surge
+Central,South,GoJek,8:45 AM,21.13769304446189,No,Surge
+East,South,TADA,6:00 PM,18.51237624448105,No,Regular
+South,Central,TADA,8:45 AM,11.419287694010151,No,Low Demand
+South,West,GoJek,8:45 AM,23.55048647468206,No,Regular
+West,Central,GoJek,12:30 PM,26.018415696131946,No,Regular
+Central,South,GoJek,6:00 PM,16.290973779023933,No,Surge
+Central,North,GoJek,6:00 PM,16.632449749567208,No,Surge
+North,South,GoJek,8:45 AM,7.88,No,Surge
+West,West,TADA,8:45 AM,14.09327503985306,No,Surge
+North,South,GoJek,8:45 AM,10.922908378706603,No,Surge
+North,West,TADA,12:30 PM,15.46203426464904,No,Surge
+North,West,TADA,12:30 PM,14.028508508725666,No,Regular
+East,West,GoJek,8:45 AM,13.161011040381254,No,Regular
+East,West,GoJek,6:00 PM,15.047470284745359,No,Regular
+North,West,TADA,6:00 PM,25.87435357767771,Yes,Regular
+West,North,GoJek,12:30 PM,8.617642352007554,No,Surge
+Central,Central,GoJek,12:30 PM,26.287076237843042,Yes,Regular
+West,East,GoJek,8:45 AM,21.362099877337286,No,Regular
+South,Central,Zig,6:00 PM,24.430929802976266,Yes,Regular
+East,West,TADA,8:45 AM,14.58130065208992,No,Low Demand
+Central,North,Zig,12:30 PM,22.95727201617795,No,Low Demand
+Central,South,GoJek,6:00 PM,7.88,No,Surge
+South,North,Zig,6:00 PM,31.0179072079845,No,Low Demand
+South,West,GoJek,12:30 PM,18.782525889475636,No,Surge
+North,North,Zig,8:45 AM,26.460769593600276,No,Surge
+East,North,GoJek,8:45 AM,16.378324977989095,No,Regular
+East,West,Zig,6:00 PM,27.163716704983898,Yes,Surge
+West,North,Zig,12:30 PM,19.307041014154965,No,Surge
+North,East,Zig,6:00 PM,21.206695645493344,No,Surge
+North,East,TADA,12:30 PM,14.631521515624591,No,Surge
+North,North,Zig,8:45 AM,24.545720705882413,No,Surge
+North,South,TADA,12:30 PM,28.200798266922497,Yes,Surge
+East,West,GoJek,8:45 AM,7.966199534789743,No,Low Demand
+East,East,Zig,12:30 PM,7.88,No,Regular
+North,South,GoJek,6:00 PM,30.580632778079593,No,Surge
+West,North,GoJek,8:45 AM,14.336862076058898,No,Regular
+Central,South,Zig,6:00 PM,28.680355510593433,No,Surge
+Central,Central,TADA,6:00 PM,11.06101882731182,No,Surge
+West,East,Zig,8:45 AM,19.86576387050867,No,Regular
+North,North,GoJek,8:45 AM,19.639985055974236,No,Surge
+East,West,GoJek,6:00 PM,16.455212292126095,No,Regular
+Central,North,Zig,6:00 PM,14.261680143557992,No,Surge
+South,West,TADA,6:00 PM,18.814668922829437,No,Regular
+South,North,TADA,6:00 PM,13.08853489157001,No,Surge
+West,South,GoJek,8:45 AM,15.609569666217354,No,Regular
+North,South,GoJek,8:45 AM,15.049065830809718,No,Surge
+Central,South,TADA,6:00 PM,17.63672552408296,No,Regular
+North,Central,Zig,12:30 PM,12.28428243187973,No,Low Demand
+Central,West,GoJek,12:30 PM,18.663786353995498,No,Low Demand
+West,South,TADA,8:45 AM,18.251149649122322,No,Low Demand
+West,Central,GoJek,6:00 PM,17.609267866806007,No,Surge
+South,West,Zig,6:00 PM,7.88,No,Surge
+North,North,TADA,8:45 AM,8.68470354843272,No,Regular
+South,Central,GoJek,12:30 PM,20.877283453019967,No,Regular
+North,East,Zig,12:30 PM,13.112883778984257,No,Regular
+South,Central,GoJek,12:30 PM,12.965701981370895,No,Surge
+East,Central,Zig,8:45 AM,29.410678076094293,Yes,Low Demand
+East,West,Zig,12:30 PM,18.64124868095111,No,Regular
+East,North,TADA,8:45 AM,22.181293852555076,No,Low Demand
+East,East,Zig,8:45 AM,21.48688719701567,No,Surge
+Central,South,GoJek,6:00 PM,22.34933616007101,No,Surge
+East,South,Zig,12:30 PM,17.385263094072332,No,Regular
+West,Central,Zig,8:45 AM,14.61664553170434,No,Regular
+West,West,TADA,12:30 PM,10.92184497243794,No,Surge
+Central,West,Zig,12:30 PM,12.260968434463113,No,Surge
+East,South,Zig,6:00 PM,21.687713173546626,No,Regular
+East,East,GoJek,12:30 PM,31.645719574732674,No,Surge
+East,North,TADA,6:00 PM,16.70414962418695,No,Low Demand
+South,East,TADA,8:45 AM,21.137992677013216,No,Low Demand
+North,North,TADA,12:30 PM,13.080074241265594,No,Low Demand
+South,South,Zig,8:45 AM,15.120909795038965,No,Regular
+North,North,TADA,12:30 PM,12.908578681065856,No,Regular
+East,West,Zig,8:45 AM,15.418524978764726,No,Surge
+East,Central,Zig,12:30 PM,14.266032371372388,No,Regular
+South,Central,GoJek,12:30 PM,19.4630493097591,No,Regular
+South,South,GoJek,12:30 PM,11.464595217581234,No,Regular
+North,West,GoJek,12:30 PM,16.882281811506783,No,Regular
+West,East,GoJek,12:30 PM,28.779753197073923,No,Regular
+North,West,GoJek,12:30 PM,25.683726016399678,No,Regular
+South,Central,Zig,12:30 PM,23.664769775278813,Yes,Regular
+South,Central,Zig,12:30 PM,14.969255860464997,No,Regular
+Central,West,TADA,12:30 PM,23.591101266041118,Yes,Surge
+South,West,Zig,8:45 AM,18.18713112653466,No,Surge
+Central,Central,Zig,6:00 PM,15.933994049295027,No,Surge
+West,East,GoJek,12:30 PM,28.87111340395208,No,Regular
+North,South,Zig,6:00 PM,9.975282164846629,No,Regular
+North,South,GoJek,12:30 PM,19.31945923786654,No,Surge
+Central,West,TADA,12:30 PM,14.283211584206331,No,Surge
+North,South,TADA,8:45 AM,7.88,No,Surge
+South,Central,Zig,8:45 AM,17.403816654475143,No,Regular
+East,Central,TADA,6:00 PM,7.977172886293404,No,Low Demand
+Central,West,Zig,8:45 AM,26.807690254145765,No,Regular
+North,West,TADA,8:45 AM,7.88,No,Regular
+Central,West,GoJek,6:00 PM,16.43946368880502,No,Surge
+Central,East,GoJek,8:45 AM,14.443388974056269,No,Surge
+East,South,GoJek,12:30 PM,24.25780039450013,No,Regular
+South,West,GoJek,6:00 PM,9.219236455265191,No,Regular
+Central,North,Zig,6:00 PM,30.72128655314747,Yes,Surge
+North,North,TADA,12:30 PM,17.315893572455344,No,Regular
+West,Central,Zig,8:45 AM,14.82257054892493,No,Regular
+Central,South,GoJek,6:00 PM,7.88,No,Regular
+Central,West,Zig,6:00 PM,22.802250647334066,No,Low Demand
+East,North,TADA,12:30 PM,10.853017935756384,No,Regular
+South,South,Zig,12:30 PM,13.417023964045395,No,Low Demand
+West,Central,TADA,8:45 AM,7.88,No,Surge
+North,East,Zig,6:00 PM,16.67179035806501,No,Low Demand
+West,South,TADA,8:45 AM,24.35760702722003,Yes,Low Demand
+North,South,TADA,8:45 AM,34.79130152575324,Yes,Regular
+South,East,GoJek,12:30 PM,7.88,No,Regular
+North,South,TADA,6:00 PM,8.50140884619549,No,Regular
+East,Central,GoJek,6:00 PM,17.239983030472274,No,Regular
+East,Central,GoJek,6:00 PM,7.88,No,Surge
+East,East,GoJek,12:30 PM,30.180295675575483,No,Regular
+East,West,Zig,12:30 PM,21.78515351802314,No,Regular
+West,North,Zig,12:30 PM,7.88,No,Regular
+South,West,Zig,12:30 PM,14.08150811677227,No,Low Demand
+North,South,Zig,12:30 PM,14.09042705991138,No,Regular
+North,North,TADA,6:00 PM,16.777564125213544,No,Regular
+East,East,TADA,8:45 AM,7.88,No,Regular
+East,East,Zig,6:00 PM,22.653112064806226,No,Low Demand
+Central,North,TADA,8:45 AM,11.734163763836097,No,Surge
+South,Central,TADA,12:30 PM,8.95985555621381,No,Regular
+West,North,GoJek,8:45 AM,7.88,No,Regular
+North,South,GoJek,6:00 PM,23.40668520057466,No,Regular
+Central,Central,GoJek,6:00 PM,12.022087861620143,No,Regular
+Central,East,GoJek,8:45 AM,15.654274170852949,No,Low Demand
+North,North,TADA,12:30 PM,21.80510629754451,No,Surge
+West,West,Zig,12:30 PM,12.54949657803326,No,Regular
+Central,West,TADA,6:00 PM,15.580954896974125,No,Low Demand
+Central,South,TADA,8:45 AM,24.172324334851957,Yes,Regular
+South,West,TADA,12:30 PM,7.88,No,Surge
+West,North,GoJek,12:30 PM,9.095381675923484,No,Low Demand
+Central,North,GoJek,6:00 PM,17.72048367118461,No,Regular
+West,West,GoJek,12:30 PM,9.170531298567827,No,Surge
+North,North,Zig,8:45 AM,7.88,No,Regular
+East,South,TADA,6:00 PM,22.278152499055032,No,Regular
+Central,Central,Zig,6:00 PM,8.576023346968379,No,Regular
+South,South,GoJek,8:45 AM,14.776790744424613,No,Regular
+North,South,Zig,6:00 PM,27.374480384603665,Yes,Surge
+West,North,TADA,12:30 PM,7.88,No,Low Demand
+North,Central,TADA,12:30 PM,22.657910455732598,No,Surge
+Central,North,GoJek,8:45 AM,15.211407704243909,No,Low Demand
+West,East,GoJek,12:30 PM,25.422007232333424,No,Low Demand
+East,North,Zig,8:45 AM,14.434107411784943,No,Regular
+North,North,GoJek,8:45 AM,38.00870256811777,No,Regular
+Central,North,GoJek,12:30 PM,18.325526525541466,No,Regular
+South,Central,TADA,8:45 AM,13.770078429647986,No,Surge
+West,North,GoJek,12:30 PM,7.88,No,Low Demand
+North,Central,GoJek,6:00 PM,19.903891551237216,No,Regular
+North,West,TADA,6:00 PM,25.711074602378417,Yes,Surge
+East,East,TADA,8:45 AM,12.044497131966937,No,Surge
+East,Central,Zig,12:30 PM,7.88,No,Surge
+South,West,GoJek,12:30 PM,22.139840157056202,No,Regular
+South,Central,TADA,6:00 PM,18.356273356391828,No,Regular
+Central,Central,Zig,6:00 PM,7.88,No,Regular
+Central,East,Zig,12:30 PM,20.655721226986884,No,Regular
+South,South,GoJek,8:45 AM,7.88,No,Regular
+South,South,GoJek,6:00 PM,19.515891381818832,No,Surge
+West,Central,Zig,8:45 AM,29.284421187722504,No,Regular
+East,North,TADA,8:45 AM,18.23603557171258,No,Low Demand
+Central,West,Zig,6:00 PM,31.824995137130234,No,Surge
+East,North,GoJek,8:45 AM,14.71910755301566,No,Surge
+East,North,TADA,8:45 AM,20.781915233767727,No,Regular
+South,Central,TADA,12:30 PM,14.374538634301047,No,Surge
+West,Central,Zig,8:45 AM,24.103309269978826,No,Low Demand
+North,Central,GoJek,12:30 PM,14.241059368359846,No,Regular
+West,Central,Zig,6:00 PM,23.494136750026446,No,Regular
+West,South,Zig,6:00 PM,24.91640726932284,Yes,Surge
+East,Central,Zig,12:30 PM,16.69399281394768,No,Regular
+West,South,TADA,6:00 PM,11.991961385271173,No,Regular
+Central,South,TADA,8:45 AM,18.895740376491226,No,Regular
+East,Central,GoJek,8:45 AM,10.563854428133872,No,Regular
+Central,East,GoJek,8:45 AM,16.175101091440244,No,Surge
+North,West,Zig,6:00 PM,21.631638035128095,No,Regular
+East,North,Zig,8:45 AM,43.737971027446605,Yes,Low Demand
+North,South,Zig,6:00 PM,18.588687249879708,No,Surge
+East,West,GoJek,8:45 AM,10.423081713808124,No,Surge
+South,East,TADA,12:30 PM,7.88,No,Surge
+West,North,TADA,6:00 PM,7.88,No,Low Demand
+South,North,Zig,6:00 PM,10.786200957982363,No,Regular
+North,South,Zig,8:45 AM,40.870032332782834,No,Low Demand
+West,Central,Zig,6:00 PM,21.226885549709262,No,Surge
+East,East,Zig,6:00 PM,34.20951807441128,No,Surge
+West,South,GoJek,12:30 PM,22.366883309557426,No,Surge
+Central,East,TADA,12:30 PM,13.749372428451718,No,Regular
+West,Central,Zig,8:45 AM,20.859546728431173,No,Regular
+Central,Central,GoJek,12:30 PM,15.181966724578547,No,Surge
+West,South,Zig,8:45 AM,23.423380299986263,Yes,Regular
+Central,Central,Zig,8:45 AM,16.699454770652753,No,Surge
+North,West,TADA,8:45 AM,13.9257384300815,No,Regular
+South,North,Zig,6:00 PM,7.88,No,Regular
+East,South,TADA,12:30 PM,18.219175760697965,No,Regular
+West,East,TADA,8:45 AM,15.121116349679768,No,Regular
+South,West,TADA,12:30 PM,19.370229879756742,No,Surge
+East,South,GoJek,8:45 AM,21.776833330853183,No,Regular
+East,Central,GoJek,12:30 PM,12.271114566320527,No,Low Demand
+Central,Central,TADA,12:30 PM,18.059918845812827,No,Surge
+North,Central,Zig,8:45 AM,24.332974999248698,Yes,Regular
+North,Central,TADA,6:00 PM,7.88,No,Surge
+South,East,Zig,12:30 PM,28.283071789975246,No,Low Demand
+North,West,TADA,6:00 PM,10.280051430694051,No,Surge
+West,North,Zig,6:00 PM,20.027817452217654,No,Regular
+North,East,GoJek,8:45 AM,7.88,No,Low Demand
+South,East,Zig,8:45 AM,7.88,No,Surge
+North,North,TADA,8:45 AM,23.797762199288826,Yes,Regular
+West,North,GoJek,12:30 PM,20.574675411023964,No,Regular
+Central,Central,Zig,8:45 AM,24.169945248675152,Yes,Surge
+South,East,Zig,8:45 AM,18.187333236152895,No,Regular
+Central,South,Zig,12:30 PM,13.850809456706422,No,Low Demand
+Central,North,Zig,12:30 PM,17.58703435007947,No,Regular
+Central,North,Zig,8:45 AM,24.252297762979108,Yes,Low Demand
+East,West,GoJek,8:45 AM,21.6508192254826,No,Surge
+East,South,GoJek,8:45 AM,16.03010302752897,No,Regular
+Central,South,GoJek,8:45 AM,11.220099762126445,No,Regular
+South,North,GoJek,6:00 PM,21.451160676857924,No,Surge
+West,Central,TADA,6:00 PM,9.725016934052377,No,Surge
+West,West,GoJek,8:45 AM,17.565972493900475,No,Surge
+North,South,Zig,6:00 PM,26.665402070663774,No,Regular
+South,North,Zig,12:30 PM,26.325686006530898,No,Regular
+East,South,GoJek,6:00 PM,16.10024871116455,No,Regular
+Central,West,Zig,6:00 PM,16.765710484645673,No,Surge
+North,West,GoJek,8:45 AM,26.08017272168691,No,Regular
+West,East,Zig,6:00 PM,22.715930569689895,No,Regular
+East,North,TADA,6:00 PM,7.88,No,Surge
+East,West,TADA,6:00 PM,30.281567280238335,Yes,Low Demand
+Central,East,GoJek,6:00 PM,19.95087429014839,No,Regular
+West,East,GoJek,12:30 PM,7.88,No,Regular
+South,South,GoJek,8:45 AM,30.41531344950907,No,Surge
+East,South,Zig,8:45 AM,25.892908103275282,Yes,Surge
+Central,East,GoJek,12:30 PM,7.88,No,Regular
+South,South,TADA,6:00 PM,14.213824058958808,No,Low Demand
+West,West,Zig,12:30 PM,9.709485495404762,No,Low Demand
+East,Central,GoJek,6:00 PM,21.906561318090844,No,Regular
+South,West,Zig,12:30 PM,22.787815369470003,No,Regular
+South,East,Zig,8:45 AM,12.440950765874245,No,Surge
+South,East,GoJek,8:45 AM,12.317165255834984,No,Surge
+East,West,Zig,8:45 AM,11.637907328754597,No,Regular
+East,South,TADA,6:00 PM,10.312815790508129,No,Surge
+North,South,TADA,6:00 PM,13.597287580753395,No,Surge
+West,East,Zig,12:30 PM,7.88,No,Regular
+Central,North,GoJek,12:30 PM,14.417801419499755,No,Surge
+South,South,Zig,8:45 AM,8.228123554618783,No,Low Demand
+North,West,TADA,6:00 PM,15.489871027406148,No,Regular
+Central,South,Zig,12:30 PM,16.25347499091549,No,Regular
+North,West,Zig,6:00 PM,13.897971878606608,No,Regular
+East,East,TADA,6:00 PM,12.912415990926027,No,Low Demand
+South,South,Zig,8:45 AM,9.928989360752091,No,Low Demand
+Central,West,Zig,8:45 AM,11.471969508038978,No,Regular
+Central,East,GoJek,6:00 PM,11.391326670272129,No,Surge
+Central,North,GoJek,6:00 PM,7.88,No,Surge
+Central,West,TADA,6:00 PM,8.799429991005326,No,Surge
+Central,North,TADA,6:00 PM,16.843301270325167,No,Regular
+North,North,TADA,8:45 AM,20.888509852339432,No,Regular
+South,Central,GoJek,12:30 PM,15.58666233867584,No,Regular
+East,South,TADA,8:45 AM,20.493458462987547,No,Surge
+East,West,TADA,12:30 PM,7.88,No,Regular
+East,North,TADA,6:00 PM,23.758722527386055,Yes,Low Demand
+East,Central,GoJek,12:30 PM,15.633875362134287,No,Regular
+North,East,Zig,8:45 AM,7.88,No,Regular
+West,West,TADA,8:45 AM,7.88,No,Surge
+South,North,Zig,6:00 PM,7.88,No,Surge
+Central,South,TADA,8:45 AM,23.675238289982353,Yes,Regular
+West,Central,Zig,6:00 PM,16.684068050902738,No,Regular
+East,North,GoJek,8:45 AM,17.704038498142946,No,Low Demand
+West,South,GoJek,8:45 AM,15.006793140223806,No,Regular
+South,North,TADA,6:00 PM,9.841713835898066,No,Regular
+Central,West,Zig,12:30 PM,16.28932081664838,No,Low Demand
+Central,West,GoJek,8:45 AM,15.162076254690668,No,Regular
+South,West,TADA,12:30 PM,16.165374793948395,No,Regular
+South,Central,TADA,8:45 AM,14.542741782833016,No,Regular
+East,West,GoJek,8:45 AM,7.88,No,Regular
+Central,South,GoJek,8:45 AM,17.097083775597955,No,Regular
+West,North,TADA,8:45 AM,12.453625426805544,No,Regular
+North,East,Zig,12:30 PM,16.012456280339045,No,Regular
+North,South,Zig,12:30 PM,22.58755021645466,No,Regular
+South,South,Zig,8:45 AM,7.88,No,Surge
+East,West,TADA,8:45 AM,25.297862270573873,Yes,Regular
+North,Central,GoJek,12:30 PM,23.120621689885148,No,Regular
+Central,North,TADA,6:00 PM,9.437359146832822,No,Low Demand
+South,Central,GoJek,6:00 PM,7.88,No,Surge
+West,North,Zig,12:30 PM,19.683585526108516,No,Regular
+South,North,Zig,8:45 AM,12.487031064955314,No,Low Demand
+West,Central,GoJek,8:45 AM,16.21326554920836,No,Regular
+South,South,GoJek,6:00 PM,29.22494466256892,No,Regular
+South,North,TADA,6:00 PM,23.006707243132443,Yes,Surge
+South,Central,Zig,12:30 PM,21.55568621955387,No,Surge
+West,North,TADA,6:00 PM,22.344176143399917,No,Regular
+West,East,TADA,12:30 PM,13.707864127385447,No,Regular
+South,South,TADA,6:00 PM,20.144784564924507,No,Surge
+North,West,Zig,6:00 PM,26.15829454431271,Yes,Regular
+East,North,TADA,6:00 PM,13.283695613621406,No,Low Demand
+East,East,TADA,8:45 AM,16.223174545577553,No,Regular
+East,West,TADA,8:45 AM,7.88,No,Low Demand
+West,West,TADA,8:45 AM,22.22952175885381,No,Surge
+West,North,TADA,6:00 PM,7.88,No,Low Demand
+North,Central,TADA,12:30 PM,10.56670067660018,No,Surge
+East,North,Zig,12:30 PM,22.069602865255764,No,Surge
+East,East,TADA,12:30 PM,7.88,No,Regular
+South,West,GoJek,12:30 PM,23.616153074459866,No,Regular
+West,North,TADA,8:45 AM,25.145574776833,Yes,Regular
+East,Central,TADA,8:45 AM,16.782183883000357,No,Low Demand
+North,North,Zig,6:00 PM,22.993861557276066,No,Low Demand
+North,South,Zig,6:00 PM,7.88,No,Regular
+East,Central,GoJek,12:30 PM,17.14714461508294,No,Regular
+West,East,GoJek,8:45 AM,7.88,No,Regular
+North,West,Zig,12:30 PM,14.365011403646843,No,Surge
+South,North,Zig,6:00 PM,19.421622756636197,No,Regular
+North,Central,TADA,6:00 PM,10.088713756876976,No,Surge
+Central,South,Zig,12:30 PM,12.220129963472164,No,Low Demand
+Central,Central,GoJek,6:00 PM,16.686350497379905,No,Regular
+West,South,TADA,12:30 PM,17.58844990112852,No,Regular
+East,East,GoJek,8:45 AM,20.368338324154138,No,Regular

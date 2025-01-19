@@ -1,0 +1,1162 @@
+Skip to main content
+I collected 60,868 price points from 3 popular taxi apps in Singapore. Here’s what I found. : r/singapore
+
+
+r/singapore
+Current search is within r/singapore
+Remove r/singapore filter and expand search to all of Reddit
+Search in r/singapore
+Advertise on Reddit
+
+Open chat
+1
+Create
+Create post
+
+Open inbox
+7
+
+User Avatar
+Expand user menu
+Skip to NavigationSkip to Right Sidebar
+
+Back
+r/singapore icon
+Go to singapore
+r/singapore
+•
+6 mo. ago
+Windswaytreeaway
+
+I collected 60,868 price points from 3 popular taxi apps in Singapore. Here’s what I found.
+I Made This
+TL;DR: View a visual representation (or download the data for your own analysis): https://web.zhengjia.dev
+
+Background: I came across this Straits Times graphic comparing different point to point transportation services, but felt it came up a bit short. It only covered the very specific route of Toa Payoh (most likely the correspondent’s home) to the city, and at a single point of time. So, why not, programmatically get the prices for different locations around Singapore?
+
+1. Which app is cheapest overall? Which app fares’ exhibit the highest variation?
+
+a. Tada was the cheapest ride hailing app measured, followed by Gojek (3.92% more expensive than Tada), followed by Zig (another 8.61% more expensive than Gojek, and a whole 12.9% more expensive than Tada)
+
+b. Tada has the lowest variation (ie standard deviation) between the rides measured, at $7.68, followed again by Gojek ($7.88), then Zig ($9.19). Tada’s lower standard deviation seems to lowered by its relatively stable fares from Sungei Gedong Camp (a place that sees low demand throughout the day).
+
+In other words, not only does ComfortDelgro’s Zig app tend to be more expensive, its fares also tend to vary more than its competitors.
+
+2. How often do taxi apps show “surge fares”?
+
+a. Note that while Tada practices fare surges, its app does not include the indicator for when fares are high, so this section will only focus on Zig and Gojek.
+
+b. In our data, Gojek showed the surge indicator for 10057 out of 60868 queries, or about 16.52% of the time.
+
+c. In our data, Zig showed the surge indicator for 36636 out of 60868 queries, or about 60.19% of the time. It is also noteworthy that Zig also has the green “fare drop”/”low demand” indicator. That showed up for 19891 out of 60868 queries, or about 32.68% of the time.
+
+PS: Grab and Ryde obfuscate their app API, presumably to prevent people like me scraping their data. For those with technical knowledge, these two apps use certificate pinning so its harder to MITM. So, if anyone working at these two companies are willing to provide me access to their API, it will be greatly appreciated :)
+
+Archived post. New comments cannot be posted and votes cannot be cast.
+
+Upvote
+621
+
+Downvote
+
+66
+comments
+
+0 awards
+
+Share
+Share
+u/jad-labs avatar
+u/jad-labs
+•
+Promoted
+
+A text role-playing game about the fate of a mercenary who finds himself in the strange village. Add it to your Wishlist now!
+store.steampowered.com
+Learn More
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+wanderingcatto
+•
+6mo ago
+Wow. Projects like this makes for a good personal portfolio, if you beef it up with more analysis.
+
+Why or how did you choose those specific locations around Singapore?
+
+I should go and look up how to scrape data from mobile apps like this
+
+
+
+Upvote
+151
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+I chose locations around mainland Singapore (so try to have some in the west, some in the East, some in the north, you get the point). Each location covers about 2-3 URA planning regions. Some locations are purposely very ulu (Tuas Link/Sungei Gedong) to assess how often different apps throw up fare surges. The types of locations were also varied - from shopping malls, to tourist attractions, office buildings, parks, and military camps.
+
+Scraping was done in Python 3.11, graphs were generated with Flourish. To know which URLs exactly to query, I proxied an iPad Pro through my PC, running Charles Proxy. There is no need to jailbreak the device. To the best of my knowledge, only iOS devices work with this, and only if the developer doesn't implement a certain security feature known as certificate pinning. This is also why Grab and Ryde don't work - they have certificate pinning in place. So, don't expect to do it with POSB/UOB :)
+
+
+
+Upvote
+18
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/ResidentLonely2646 avatar
+ResidentLonely2646
+•
+6mo ago
+Wait so if grab and Ryde certificate pinning, how did you scrape it for this analysis
+
+
+
+Upvote
+-3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+Grab and Ryde use certificate pinning, hence they can't be scrapped as easily. As such, these 2 apps' results were not included here. Gojek, Tada and Zig don't use certificate pinning. I wouldn't be surprised if all of them suddenly start implementing cert pin though
+
+
+
+Upvote
+6
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+
+[deleted]
+•
+6mo ago
+geeky-gymnast
+•
+6mo ago
+Own self check own self ✅
+proxied an iPad Pro through my PC
+
+Does proxying an ipad pro through a PC imply emulation of an ipad on a PC, or does it mean making the https queries appear to be coming from an ipad?
+
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+The latter
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/antheasynx avatar
+antheasynx
+•
+6mo ago
+East Coast
+Now we need an app that compares all taxis apps at once when hiring one
+
+
+
+Upvote
+220
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+Yeah, it actually existed. It was called Spur. I think it got shut down? This project was kinda inspired by that
+
+https://www.straitstimes.com/singapore/transport/new-app-spur-helps-commuters-find-cheapest-rates-among-3-ride-hailing-providers
+
+
+
+Upvote
+144
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+TehOLimauIce
+•
+6mo ago
+Ehailing companies: (clench fists) Good
+
+
+Upvote
+13
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+desewer
+•
+6mo ago
+Check out the wokaygo app i think it does exactly that.
+
+
+Upvote
+43
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/barry2bear2 avatar
+barry2bear2
+•
+6mo ago
+To the top
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+trublupotato
+•
+6mo ago
+teh bing
+Toa Payoh is probably because that’s where the SPH News Centre (their office) is located
+
+
+Upvote
+62
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/idiotnoobx avatar
+idiotnoobx
+•
+6mo ago
+Working at these companies and providing you API sounds like a career death wish
+
+
+
+Upvote
+72
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+[deleted]
+HuskyPlayz48
+•
+6mo ago
+bros gonna breach some legal contract
+
+
+Upvote
+5
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/griefer55 avatar
+griefer55
+•
+6mo ago
+Hmmm Sungei Gedong does have occasional insane demand and surge pricing tho? No one wants to drive in past Lim Chu Kang Cemetery to pick up smelly NSFs and reservists.
+
+Source: ICT
+
+
+
+Upvote
+62
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+Goenitz33
+•
+6mo ago
+Issue is they have to go in empty to pickup. So unless just so happens got ppl going in and you are going out, it’s usually a long wait.
+
+This happens to quite a few of the more off locations
+
+
+
+Upvote
+21
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/silentscope90210 avatar
+silentscope90210
+•
+6mo ago
+Like Tuas... No drivers like to go there.
+
+
+Upvote
+6
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+Simple_Reality_649
+•
+6mo ago
+Thanks for your detailed write up and sharing! Particularly enjoyed the last paragraph ;)
+
+I think one way to supplement your research is maybe to check on the ride acceptance rates (some services might be cheaper but maybe harder to get accepted due to low driver count).
+
+Not sure if that information is available in the API as well?
+
+
+Upvote
+14
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+pewpewhadouken
+•
+6mo ago
+grab? while grab used to be the most expensive for me, for the last few months it’s consistently been the cheapest option anecdotally 75% of the time…
+
+funny part is, on my friends grab app from the same location to same destination, his is always a couple of dollars more……
+
+
+
+Upvote
+42
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+Silentxgold
+•
+6mo ago
+Noticed this as well
+
+Me and a colleague tried to book grab from jurong to tampines once, same start and end.
+
+She was diamond or platinum I cant remember while I was silver.
+
+Her rate was a few dollars more than mine lol.
+
+
+
+Upvote
+26
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+nereid89
+•
+6mo ago
+I have two phones and on my main phone I am a platinum member as I used to use it all the time.
+
+One day after work I tried to grab on my work phone and shocklingly realise it’s $10 cheaper on the exact same parameters. I tried a few times afterwards and most of the times my work phone comes in few bucks cheaper. I was convinced they price discriminate and if you are a heavy grab user you actually get higher quote.
+
+Since then I’ve started downloading other apps and will compare fares and end up using tada most of the time.
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+pm_samoyed_pics
+•
+6mo ago
+Agree.
+
+Used to be Tada but Grab has been the cheapest recently for me as well.
+
+Gojek is almost always the most expensive.
+
+
+
+Upvote
+10
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/anon4anonn avatar
+anon4anonn
+•
+6mo ago
+huh for me grab is the most exp ( i compared from jewel to tampines ) followed by gojek thn tada
+
+
+Upvote
+7
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+justnotjuliet
+•
+6mo ago
+Same for me too - everyone tells me grab is most expensive but it's usually the cheapest (or 2nd cheapest). I use gojek, tada and zig (hardly ever coz usually more ex) as well.
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/p123476 avatar
+p123476
+•
+6mo ago
+•
+Edited 6mo ago
+TADA app is unstable. I was kicked out by a driver since could not accept ride in app to start. The ride could not be cancelled. Then tada went down for 2-3 hrs - then it showed me on ride when i was at home and then it charged me. Then their customer service took more than a month to even acknowledge issue still no refund. It is basically shitty service like some budget carriers. If you hv issue no one will help. I found Grab and Gojek hv best Cust service so i stick to it. Btw complained to LTA - LtA said will pass on to their mgmt. Not sure if helps.
+
+
+
+Upvote
+27
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/5urr3aL avatar
+5urr3aL
+•
+6mo ago
+Sorry to hear that, but I didn't have any major issues with TADA-- it's my goto taxi app for 2023 (just sharing to give a more balanced perspective)
+
+
+
+Upvote
+19
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/p123476 avatar
+p123476
+•
+6mo ago
+Sure. I am only sharing my experience which was unexpected. Even I took TADA before that but now swore off. To me , a difficult situation is what is known as moment of truth. Customer service focused companies convert moment of truth into positive outcome (ie they could have refunded right away) and it would have built durable loyalty. I would have used and vouched for it if they had bothered to resolve it. Everyone fails but how u handle failure defines future successes. To me TADA is not customer focused and I am left on my own to fend for myself. Obviously I don’t ever want to be in same situation again. Ymmv.
+
+
+Upvote
+5
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+toocuteforsggirls
+•
+6mo ago
+Thanks! 😊
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+wackocoal
+•
+6mo ago
+being an old schooler, how difficult is it, to hail a cab today, without the use of an app or even a phone call?
+
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+Waste-Maybe6092
+•
+6mo ago
+Very hard.. I tried for a while even at taxi stand..
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/FunerealCrape avatar
+FunerealCrape
+•
+6mo ago
+Kind of hit or miss. Sometimes it just works (I like telling the story of the one time Grab spent 30 minutes failing to get me a driver, then I walked to a bigger road to try street hailing and instantly got a much cheaper ride). Other times it might be an exercise in frustration
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+metalleo
+•
+6mo ago
+:seniorCitizen: Thumbs up man!!!
+Depends where you are. Major spots where taxis come and go regularly such as airport and hospitals still quite OK depending on time. Other taxi stands are hit and miss. Haven't flagged one down on the streets in years so can't say for that
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+FalseAgent
+•
+6mo ago
+West side best side
+you can get via phone call but hailing one.... basically impossible
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/zeraphiel08 avatar
+zeraphiel08
+•
+6mo ago
+emoji:matureCitizen: Mature Citizen
+How did you scrap the data?
+
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+iOS device with Charles Proxy
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+happyfriend20
+•
+6mo ago
+bonsoir.
+Also have to take note that with the UOB One Card there is 10% off on Grab. So while the prices could be higher but with the rebate it could be very much in line with the cheaper apps.
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/delayeduser avatar
+delayeduser
+•
+6mo ago
+:seniorCitizen: Senior Citizen
+I assume was this for comfortrides and not actual taxi bookings
+
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+Yep, ComfortRide. Actual taxi ride prices will vary though, due to traffic conditions and the route your driver takes
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/jupiter1_ avatar
+jupiter1_
+•
+6mo ago
+Gojek always most expensive for me
+
+CDG still ok.
+
+Able to share the timing where CDG is more expensive or incur a greater variation?
+
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+You can see the graphs on the website. Select the origin and destination then the graphs will load :)
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+SumikoTan
+•
+6mo ago
+Fucking Populist
+Grab and Ryde are obsfucated likely because anecdotally they are by far the most expensive.
+
+
+Upvote
+3
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/HANAEMILK avatar
+HANAEMILK
+•
+6mo ago
+Fucking Populist
+Using GrabShare has been the cheapest option for me. I actually find Gojek's prices to always be higher than normal Grab
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/klarkooi avatar
+klarkooi
+•
+2mo ago
+Need complete info about the population of the drivers for each app and how easy to get one. Follows by their average price and variation of peak demand price. I have not taken grab for a while and surprised to see grab car is 50%-2x of taxi car. This totally defeated the reason to have more private driver population to ease demands. Something very wrong about these car riding company.
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+
+dozome
+•
+6mo ago
+
+Chiselface
+•
+6mo ago
+
+membership2031
+•
+6mo ago
+TruthSeeker_Uriel
+•
+6mo ago
+Thank you so much!!
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+epimeliad
+•
+6mo ago
+rice and porridge
+u/Windswaytreeaway what does the points means? a to b, a to c?
+
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+Yep, one data point is one set of the following data: a record ID (just a randomly generated number), current time, Gojek price, Tada price, CDG Zig price, and whether Gojek and Zig display surges or not.
+
+One example of a data point is: {record": "24b709f5-5e56-4b6c-8781-325fb54a3e19", "time": "26/12/2023 11:42:05PM", "from": "a", "to": "b", "gojek": 14.9, "gojek_surge": 0, "tada": 16.6, "zig": 18.3, "zig_surge": 0}
+
+Another example of a data point is: {"record": "ced95ad0-3c86-4b46-afff-e77423a4b098", "time": "27/12/2023 12:06:59AM", "from": "a", "to": "b", "gojek": 16.0, "gojek_surge": 0, "tada": 16.3, "zig": 18.3, "zig_surge": 0}
+
+In the above examples, A is Jurong Point, B is Sungei Gedong camp
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+yellowsuprrcar
+•
+6mo ago
+Wow where do you work and how much do you earn this is impressive hahaha thank you very much
+
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/Windswaytreeaway avatar
+Windswaytreeaway
+OP
+•
+6mo ago
+Nsf :(
+
+
+Upvote
+2
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+pokkatsguy
+•
+6mo ago
+Tldr: use which app better ah?
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+u/rollin340 avatar
+rollin340
+•
+6mo ago
+In our data, Zig showed the surge indicator for 36636 out of 60868 queries, or about 60.19% of the time. It is also noteworthy that Zig also has the green “fare drop”/”low demand” indicator. That showed up for 19891 out of 60868 queries, or about 32.68% of the time.
+
+So only 4,341 out of 60,636 rides from ZIG were "normal". That's just 7% of all ZIG rides that you collected. It feels like the "low demand" mode is almost the actual default. :X
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+Pleasant-Reception-1
+•
+6mo ago
+Cool study! May I know what major you took to learn how to process data like this?
+
+
+Upvote
+1
+
+Downvote
+
+Award
+0 awards
+
+Share
+Share
+
+r/singapore
+Joined
+Singapore
+Welcome to /r/singapore: The place for anything Singapore.
+1.2M
+Members
+286
+ Online
+Top 1%
+Rank by size 
+USER FLAIR
+u/Extreme_Interview977 avatar
+Extreme_Interview977
+RULES
+1
+Follow Reddiquette
+2
+Do not use offensive language or be abusive
+3
+Disallowed submissions
+4
+No personal info
+5
+No editorialising and use descriptive titles for self submissions.
+6
+Belongs to the daily thread
+7
+No duplicate posts
+8
+No off topic or low effort content
+9
+Fundraising, AMAs
+10
+Meme Monday
+FILTER BY FLAIR
+Image
+News
+Opinion/Fluff Post
+Politics
+Discussion
+Serious Discussion
+I Made This
+Satire/Parody
+Meme
+Announcement
+OTHER SG RELATED SUBS
+r/askSingapore
+248,717 members
+r/SGExams
+239,732 members
+r/NationalServiceSG
+35,850 members
+MODERATORS
+u/KeythKatz avatar
+u/KeythKatz
+u/AutoModerator avatar
+u/AutoModerator
+u/croissanwich
+u/FatAsian3 avatar
+u/FatAsian3
+u/etulf
+u/ARE_U_FUCKING_SORRY
+u/nicktanisok
+Nick Tan
+u/MerRyanSG avatar
+u/MerRyanSG
+MerRyan
+u/ModeratelyHelpfulBot avatar
+u/ModeratelyHelpfulBot
+Moderately Helpful Bot
+u/ModeratelyUsefulBot avatar
+u/ModeratelyUsefulBot
+Message the mods
+TOPICS
+Singapore
+Southeast Asia
+Asia
+Place
+
+
+Source: https://www.reddit.com/r/singapore/comments/18wpk37/i_collected_60868_price_points_from_3_popular/

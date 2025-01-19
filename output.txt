@@ -1,0 +1,41 @@
+MobiusLabs Singapore🤓, [3/7/2024 6:00 pm]
+/start
+
+SG Ride Aunty, [3/7/2024 6:00 pm]
+I am Ride Aunty. Come, Aunty will help you compare prices, okay?
+Where are you now, my dear? Please give me your address.
+
+MobiusLabs Singapore🤓, [3/7/2024 6:00 pm]
+jurong east
+
+SG Ride Aunty, [3/7/2024 6:00 pm]
+Ok, thank you. Now, I'll show you a photo. Tell me which part of Singapore you are from: 
+Central, North, West, South, or East?
+
+SG Ride Aunty, [3/7/2024 6:00 pm]
+Ok, now tell me where you are going. Please give me the address.
+
+MobiusLabs Singapore🤓, [3/7/2024 6:00 pm]
+central
+
+SG Ride Aunty, [3/7/2024 6:00 pm]
+Alright, now I'll show you another photo. Tell me which part of Singapore you are going to:
+ Central, North, West, South, or East?
+
+MobiusLabs Singapore🤓, [3/7/2024 6:00 pm]
+changi
+
+SG Ride Aunty, [3/7/2024 6:01 pm]
+What time of day is it? (e.g., '8:45 AM', '12:30 PM', '6:00 PM')
+
+MobiusLabs Singapore🤓, [3/7/2024 6:01 pm]
+East
+
+SG Ride Aunty, [3/7/2024 6:01 pm]
+Ok, I got some prices for you:
+TADA: $15.38 - $17.38
+GoJek: $15.84 - $17.84
+Zig: $14.04 - $16.04
+
+MobiusLabs Singapore🤓, [3/7/2024 6:01 pm]
+8:45 AM
