@@ -100,10 +100,3 @@ This project is open-source and licensed under the MIT License.
 1. Dataset: Reddit r/singapore post
 2. Libraries: python-telegram-bot, pandas, scikit-learn
 
-
-### Instructions:
-- Save the above content as `README.md` in the root of your project.
-- Ensure the uploaded images (`ride_aunty.png` and `URA_Region2.png`) are in the root or specify their correct paths in the markdown.
-
-Let me know if you need further adjustments!
-
